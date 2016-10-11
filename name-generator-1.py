@@ -1,5 +1,4 @@
 import random
-
 list_vowels = ['a','e','i','o']
 list_consonants = ['b','d','f','g','h','j','k','l','m','n','p','r','s','t']
 list_vowels_rare = ['y','u']
