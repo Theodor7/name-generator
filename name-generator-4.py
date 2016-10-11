@@ -1,15 +1,15 @@
-import random
+from random import randint, choice
 vowels = 'aaaaaaaaaaaaaeeeeeeeeeeeeeiiiiiiiiioooooooooouuuuyy'
 consonants = 'bbbbbbbbcccddddddffffffggghhhjjkkkkkkkllllllmmmmmmmmnnnnnnnppppppqrrrrrrsssssssssstttttttvvvvwxz'
 name = ''
-pattern = random.randint(0,1)
-for x in range(0,random.randint(3,10)):
+pattern = randint(0,1)
+for x in range(0,randint(3,10)):
     if x %2 == pattern:
-        name += random.choice(vowels)
-        if random.randint(0,8) == 0:
+        name += choice(vowels)
+        if randint(0,8) == 0:
             pattern = -(pattern-1)
     else:
-        name += random.choice(consonants)
-        if random.randint(0,4) == 0:
+        name += choice(consonants)
+        if randint(0,3) == 0:
             pattern = -(pattern-1)
 print name.capitalize()
