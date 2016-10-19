@@ -25,3 +25,7 @@ name-generator-4
   NO in-built higher chance two of the same consonants in a row.
   For loop (Adds a new letter a random amount of times).
   Pro: Very easy to adjust chances of vowels appearing 2 times in a row, independently of consonants.
+
+town-name-generator-1
+  Creates a name for a town.
+  Based on name-generator-4, the prefix cannot have two consonants or vowels in a row.
