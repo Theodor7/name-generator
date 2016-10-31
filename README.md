@@ -28,4 +28,4 @@ name-generator-4
 
 town-name-generator-1
   Creates a name for a town.
-  Based on name-generator-4, the prefix cannot have two consonants or vowels in a row.
+  Based on name-generator-4.
